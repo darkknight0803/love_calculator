@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<div class="main">
+<div class="container">
+<header>LOVE CALCULATOR</header>
+
+<form  action="index.html" method="post">
+  <input type="text" name="Name" value="" placeholder="YOUR NAME">
+  <input type="text" name="" value="" placeholder="YOUR LOVE'S NAME"><br><br>
+  <button type="button" name="button" value="Submit" onclick="fun()">Click Me</button><br><br>
+LOVE % <input type="text" name="" value="" id='a'>
+
+</form>
+<script>
+function fun() {
+var a = Math.random() * 100;
+a = Math.floor(a);
+
+while (a<50) {
+a++;
+}
+document.getElementById('a').value = a;
+}
+</script>
+<footer>GOD BLESS YOUR RELATIONSHIP</footer>
+</div>
+</div>
+
+</body>
+</html>
